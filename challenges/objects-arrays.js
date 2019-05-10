@@ -176,9 +176,7 @@ The zoos need to know their total animal population across the United States.  F
 */
 const populationTotal;
 
-    let largerPopulation =
-
-      zooAnimals.reduce((zooAnimal, index, zooAnimals) =>
+    let largerPopulation = zooAnimals.reduce((zooAnimal, index, zooAnimals) =>
     {
         return `${population}`, 0
 
