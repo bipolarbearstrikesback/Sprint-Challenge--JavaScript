@@ -48,7 +48,9 @@ class cuboidMaker{
     }
 }
 class cubemaker extends cubiodMaker{
+    
     constuctor(a){
+        super()
         let areaofcube;
         areaofcube = a*a;
         return areaofcube;
