@@ -1,4 +1,5 @@
 //// ==== Objects ====
+//// ==== Objects ====
 
 /*
   Given the following information about dinosaurs, create 3 objects:
@@ -21,7 +22,12 @@ var tyrannosaurus =
 
 // stegosaurus, herbivorous, 2000kg, 9m, Late Jurassic
 
-var stegosaurus = {weight: '2000kg', diet: 'herbivorous', length:'9m', period:'Late Jurassic'};
+var stegosaurus = {
+  weight: '2000kg',
+  diet: 'herbivorous',
+  length:'9m',
+  period:'Late Jurassic'
+};
 
 // velociraptor, carnivorous, 15kg, 1.8m, Late Cretaceious
 
@@ -144,7 +150,7 @@ The zoos need a list of all their animal's names (names only, not scientific) co
 */
 let lowerCase = [];
 
-let lowerCase = zooAnimals.map((zooAnimal, index, zooAnimals) => {
+ lowerCase = zooAnimals.map((zooAnimal, index, zooAnimals) => {
   return zooAnimal.animal_name.toLowerCase();
 });
 
@@ -155,8 +161,8 @@ console.log(lowerCase);
 The zoos are concenred about animals with a lower population count. Find out which animals have a population less than 5.
 
 */
-const largerPopulation = [];
-let largerPopulation = zooAnimals.filter((zooAnimal, index, zooAnimals) =>
+let largerPopulation = [];
+ largerPopulation = zooAnimals.filter((zooAnimal, index, zooAnimals) =>
 {
   for (i = 0; i < zooAnimals.length; i++)
   {
@@ -174,9 +180,9 @@ console.log(largerPopulation);
 The zoos need to know their total animal population across the United States.  Find the total population from all the zoos using the .reduce() method.
 
 */
-const populationTotal;
 
-    let largerPopulation = zooAnimals.reduce((zooAnimal, index, zooAnimals) =>
+
+    let TotalPopulation = zooAnimals.reduce((zooAnimal, index, zooAnimals) =>
     {
         return `${population}`, 0
 
