@@ -29,14 +29,22 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. Describe the biggest difference between `.forEach` & `.map`.
+The biggest difference is one returns the data the other does not
 
 2. What is the difference between a function and a method?
+a method is a function added on as a property of the object.
 
 3. What is closure?
+A variable or function that can only be called within the scope of the function .Its only accessible through the function scope.
 
 4. Describe the four rules of the 'this' keyword.
+Window/Global Object Binding
+Implicit Binding
+New binding
+Explicit binding
 
 5. Why do we need super() in an extended class?
+we need it for inheritance purposes.
 
 ## Project Set up
 
